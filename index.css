@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    min-width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid #5f9341;
+    margin-bottom: 20px;
+    border-radius:2px;
+    
+}
+
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 13px 18px;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:lightskyblue;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color:lightskyblue;
+    font-weight: bold;
+}
+
+#del-btn{
+    cursor:pointer;
+}
+
+#del-btn:hover{
+    background-color: red;
+    margin-left:5px;
+}
+#tab-btn{
+    cursor:pointer;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+
+#tab-btn:hover{
+    background-color:lightgreen ;
+ 
+}
